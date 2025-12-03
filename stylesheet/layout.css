@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --beige: #e4dfdb;
+  --dark: #242424;
+  --red: #d10e0e;
+}
+
+body {
+  margin: 0 auto;
+  background: var(--beige);
+  -webkit-font-smoothing: antialiased;
+  cursor: url("../images/cursor.png"), auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3vw;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}

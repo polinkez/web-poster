@@ -1,0 +1,28 @@
+/* ------ TABLET 768 ------*/
+@media (max-width: 768px) {
+  .container {
+  }
+}
+/* ------ MOBILE 414 ------*/
+@media (max-width: 414px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 4vw;
+    padding-left: 5vw;
+    padding-left: 5vw;
+    gap: 8vw;
+  }
+}
+
+/* ------ MOBILE 360------*/
+@media (max-width: 360px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    padding: 4vh 0;
+    gap: 8vw;
+  }
+}

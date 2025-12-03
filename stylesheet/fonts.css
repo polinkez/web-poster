@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Neutral Face";
+  src: url("../fonts/NeutralFace.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter_18pt-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
