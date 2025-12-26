@@ -99,7 +99,8 @@ header h1 {
   width: 100vw;
   height: 58vw;
   display: grid;
-  grid-template-columns: repeat(7, 15vw);
+  box-sizing: border-box;
+  grid-template-columns: repeat(6, 1fr) 3.5vw;
   color: var(--white);
   padding: 3.5vw;
 }
